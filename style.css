@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.item {
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 0.25em;
+    margin-top: 5vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.row {
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.justify-start {
+    justify-content: flex-start;
+}
+
+.flex.justify-end {
+    justify-content: flex-end;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.align-baseline {
+    align-items: baseline;
+}
+
+.flex.align-start {
+    align-items: flex-start;
+}
+
+.flex.align-end {
+    align-items: flex-end;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.space-around {
+    justify-content: space-around;
+}
+
+.flex.wrap {
+    flex-wrap: wrap
+}
+
+.flex.grow-1 {
+    flex-grow: 1;
+}
+
+.flex.grow-2 {
+    flex-grow: 2;
+}
+
+.flex.grow-3 {
+    flex-grow: 3;
+}
+
+.clean-list {
+    list-style: none;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
